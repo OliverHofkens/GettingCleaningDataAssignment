@@ -4,7 +4,7 @@ This is my submission for the Coursera + Johns Hopkins University Data Science C
 
 ## Usage
 
-The script `run_analysis.R` expects [this data set]("http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones") in a folder called 'data', cleans it, and summarizes it. It creates 2 variables `data_clean` and `data_grp_summary`, for more info see [the codebook]("./CodeBook.md").
+The script `run_analysis.R` expects [this data set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) in a folder called 'data', cleans it, and summarizes it. It creates 2 variables `data_clean` and `data_grp_summary`, for more info see [the codebook](CodeBook.md).
 
 ## Detailed steps
 
