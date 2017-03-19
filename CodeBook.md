@@ -8,7 +8,7 @@ Please see the README.txt and features\_info.txt in the downloaded data for deta
 ## Tidy Data
 
 The raw data can be cleaned up with the `run_analysis.R` script contained in this repository.
-See the [README.md]("./README.md") for more information.
+See the [README.md](README.md) for more information.
 The script creates 2 variables (both also exported as .txt), data\_clean and data\_grp\_summary: 
 
 ### data\_clean
@@ -44,7 +44,7 @@ The other 66 variables are the numeric mean and stddev measurements - normalized
 * fBodyGyroMag
 * fBodyGyroJerkMag 
 
-Please refer to the original documentation of this dataset for more details [HERE]("http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones")
+Please refer to the original documentation of this dataset for more details [HERE](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ### data\_grp\_summary
 
