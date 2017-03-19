@@ -30,8 +30,11 @@ colnames(y) <- c('activity')
 levels(y$activity) <- activity_labels$activity
 
 # Merge it all together and clean up the unused variables
-data <- data.frame(subject, y, x)
+data_clean <- data.frame(subject, y, x)
 rm(features, subject, x ,y)
 
 # Create 2nd data set with avg grouped by subject+activity
 data_grp_summary <- group_by(data, subject, activity) %>% summarise_all(mean)
+
+write.table(data_clean, "data_clean.txt", row.names = FALSE)
+write.table(data_grp_summary, "data_grp_summary.txt", row.names = FALSE)
